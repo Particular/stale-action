@@ -7,7 +7,7 @@ Because we distribute `stale.yml` workflows to all repos via [RepoStandards](htt
 ## Usage
 
 ```yaml
-      - name: Set stale PRs
+      - name: Mark stale PRs
         uses: Particular/stale-action@main
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
