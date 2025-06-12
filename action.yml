@@ -11,6 +11,7 @@ runs:
       name: Set stale PR as idle
       with:
         repo-token: ${{ inputs.repo-token }}
+        delete-branch: true
         stale-pr-message: |
           This pull request has been automatically marked as stale because it has not had recent activity. It will be closed if no further activity occurs. Thank you for your contributions.
         stale-pr-label: 'stale'
